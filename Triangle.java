@@ -35,6 +35,7 @@ public class Triangle
 	public static String determineTriangleV2 (int a, int b, int c)
 	{
 		String result = "";
+		String reqq="";
 		if ((a <= 0) || (b <= 0) || (c <= 0))
 		{
 			result = "Not a triangle";
