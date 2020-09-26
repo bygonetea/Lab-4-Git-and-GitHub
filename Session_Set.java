@@ -13,7 +13,7 @@ public class Session_Set extends HttpServlet {
 		PrintWriter out = res.getWriter();
 
 		HttpSession session = req.getSession();
-    session.setAttribute("myName2","§d¥Ã§Ó2");
-	
+    session.setAttribute("myName2","ï¿½dï¿½Ã§ï¿½2");
+// 123
 	}
 }
