@@ -8,7 +8,7 @@ public class Session_Set extends HttpServlet {
 
 	public void doGet(HttpServletRequest req, HttpServletResponse res)
 			throws ServletException, IOException {
-		private String name;
+		private float name; 
 		//123456
 		res.setContentType("text/html; charset=Big5");
 		PrintWriter out = res.getWriter();
